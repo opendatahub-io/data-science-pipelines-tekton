@@ -4,7 +4,7 @@ go 1.13
 
 require (
 	github.com/cenkalti/backoff/v4 v4.1.3
-	github.com/google/go-cmp v0.5.9
+	github.com/google/go-cmp v0.6.0
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/kubeflow/kfp-tekton/tekton-catalog/cache v0.0.0
 	github.com/kubeflow/kfp-tekton/tekton-catalog/objectstore v0.0.0
@@ -19,6 +19,7 @@ require (
 )
 
 replace (
+	github.com/go-git/go-git/v5 v5.4.2 => github.com/go-git/go-git/v5 v5.11.0
 	github.com/kubeflow/kfp-tekton/tekton-catalog/cache => ../cache/
 	github.com/kubeflow/kfp-tekton/tekton-catalog/objectstore => ../objectstore/
 )
